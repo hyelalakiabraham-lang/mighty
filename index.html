@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abraham | Product Designer & Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <style>
+    :root {
+      --bg: #f8f9fa;
+      --text: #111827;
+      --accent: #14b8a6;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: #e0f2f1;
+      padding: 20px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .logo { font-weight: bold; font-size: 1.4rem; }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: var(--text);
+      font-weight: 500;
+    }
+    .cta {
+      background: #111827;
+      color: white;
+      padding: 10px 24px;
+      border-radius: 50px;
+      text-decoration: none;
+    }
+
+    .hero {
+      background: #e0f2f1;
+      padding: 80px 5% 60px;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      flex-wrap: wrap;
+    }
+    .hero-text h1 {
+      font-size: 4.5rem;
+      line-height: 1.1;
+      margin-bottom: 10px;
+    }
+    .hero-text p { font-size: 1.3rem; margin: 20px 0; }
+    .social-icons a {
+      font-size: 1.8rem;
+      margin-right: 15px;
+      color: #333;
+    }
+    .hero-image {
+      width: 380px;
+      height: 380px;
+      border-radius: 50%;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    }
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .small-photos {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin: 40px 0;
+      flex-wrap: wrap;
+    }
+    .small-photos img {
+      width: 140px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    }
+
+    .about-section {
+      padding: 80px 5%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+    .about-text h2 { font-size: 2.2rem; margin-bottom: 20px; }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 30px 0;
+    }
+    .tag {
+      background: #e0f2f1;
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 0.95rem;
+    }
+    .value-box {
+      background: #111827;
+      color: white;
+      padding: 30px;
+      border-radius: 16px;
+    }
+    .value-box img {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    .satisfaction {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://picsum.photos/id/1015/1200/600');
+      background-size: cover;
+      color: white;
+      padding: 80px 5%;
+      text-align: center;
+      font-size: 4rem;
+      font-weight: bold;
+      position: relative;
+    }
+    .satisfaction p { font-size: 1.2rem; margin-top: 10px; }
+
+    .services {
+      padding: 80px 5%;
+      text-align: center;
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+    .service-card {
+      background: white;
+      padding: 40px 20px;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+    .service-card i {
+      font-size: 3rem;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .contact {
+      padding: 80px 5%;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #111827;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">USATECH</div>
+    
+    <a href="https://wa.me/07043181273" class="cta">Let's talk</a>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <p>Hello</p>
+      <h1>I Am<br>Abraham</h1>
+      <p>Find Me Online</p>
+      <div class="social-icons">
+        <a href="#">↗</a>
+        <a href="#">📷</a>
+        <a href="#">𝕏</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="./mighty.jfif" alt="Abraham">
+    </div>
+
+    <div style="flex:1; max-width:380px;">
+      <h2>Product Designer and Developer</h2>
+      <p>As a Product Designer and Developer innovative that blend aesthetics and delivering exceptional READY TO FINANCES? innovative solutions that blend aesthetics and functionality join the today and experience the future of digital banking.</p>
+      <a href="#" style="background:#111827; color:white; padding:12px 28px; border-radius:50px; display:inline-block; margin-top:20px;">Explore Works</a>
+    </div>
+  </section>
+
+  <!-- Small Photos -->
+  <div class="small-photos">
+    <img src="./picture1.jfif" alt="">
+    <img src="./picture2.jfif" alt="">
+    <img src="./picture3.jfif" alt="">
+  </div>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>As a Product Designer and Developer, I create innovative solutions that blend aesthetics and functionality, delivering exceptional user experiences across various platforms.</p>
+      
+      <div class="tags">
+        <span class="tag">Social Platforms</span>
+        <span class="tag">Portfolio</span>
+        <span class="tag">sales management</span>
+        <span class="tag">E-Commerce</span>
+        <span class="tag">Healthcare</span>
+        <span class="tag">Real Estate</span>
+      </div>
+    </div>
+
+    <div class="value-box">
+      <h3>The Value Provided</h3>
+      <img src="https://picsum.photos/id/1015/600/400" alt="Value">
+      <p style="margin-top:20px;">Gain insights through user interviews, surveys, and usability testing. Understand behaviors to inform design.</p>
+    </div>
+  </section>
+
+  <!-- Client Satisfaction -->
+  <section class="satisfaction">
+    <div style="max-width:800px; margin:0 auto;">
+      <h1>98%*</h1>
+      <p>Client Satisfaction</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <h2>Services Provided</h2>
+    <div class="services-grid">
+
+      <div class="service-card">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>App Design</h3>
+        <p>We specialize in designing user-friendly mobile apps tailored to your business.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-code"></i>
+        <h3>Development</h3>
+        <p>Our web development services focus on building responsive and efficient websites.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-pencil-ruler"></i>
+        <h3>Prototyping</h3>
+        <p>We develop functional interactive prototypes to visualize design concepts.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-paint-brush"></i>
+        <h3>UI/UX Design</h3>
+        <p>Our UI/UX design services focus on creating intuitive and visually appealing interfaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to get in touch, feel free to send me a message at </p>
+    <a href="mailto:heylalakiabraham@gmail.com">heylalakiabraham@gmail.com</a> <br>
+    <a href="https://wa.me/07043181273" target="_blank">WhatsApp</a><br>
+    phone: 07043181273
+  </section>
+
+  <footer>
+    <p>2026 USATECH. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
