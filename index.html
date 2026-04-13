@@ -22,7 +22,7 @@
       background: #e0f2f1;
       padding: 20px 5%;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
       position: sticky;
       top: 0;
@@ -167,6 +167,90 @@
       background: #111827;
       color: white;
     }
+
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      header {
+        padding: 15px 5%;
+      }
+      .logo {
+        font-size: 1.2rem;
+      }
+      .cta {
+        padding: 8px 20px;
+        font-size: 0.9rem;
+      }
+
+      .hero {
+        padding: 40px 5% 30px;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+      }
+      .hero-text h1 {
+        font-size: 2.5rem;
+      }
+      .hero-text p {
+        font-size: 1rem;
+      }
+      .hero-image {
+        width: 200px;
+        height: 200px;
+      }
+
+      .small-photos img {
+        width: 100px;
+        height: 70px;
+      }
+
+      .about-section {
+        grid-template-columns: 1fr;
+        padding: 40px 5%;
+        gap: 30px;
+      }
+      .about-text h2 {
+        font-size: 1.8rem;
+      }
+
+      .satisfaction {
+        padding: 40px 5%;
+        font-size: 2rem;
+      }
+      .satisfaction p {
+        font-size: 1rem;
+      }
+
+      .services {
+        padding: 40px 5%;
+      }
+      .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      .service-card {
+        padding: 30px 15px;
+      }
+      .service-card i {
+        font-size: 2.5rem;
+      }
+
+      .contact {
+        padding: 40px 5%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-text h1 {
+        font-size: 2rem;
+      }
+      .hero-image {
+        width: 150px;
+        height: 150px;
+      }
+      .satisfaction {
+        font-size: 1.5rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -185,9 +269,8 @@
       <h1>I Am<br>Abraham</h1>
       <p>Find Me Online</p>
       <div class="social-icons">
-        <a href="#">↗</a>
-        <a href="#">📷</a>
-        <a href="#">𝕏</a>
+        <a href="https://www.facebook.com/abra.ham.64864">facebook</a>
+        <a href="https://twitter.com/abra.ham">twitter</a>
       </div>
     </div>
 
